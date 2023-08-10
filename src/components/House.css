@@ -1,0 +1,89 @@
+.house {
+  width: 100%;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.house > img {
+  width: 100%;
+  height: 213px;
+  object-fit: cover;
+}
+
+.house__middle {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.middle__top {
+  width: 100%;
+  padding-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middle__top > p {
+  color: #999999;
+  font-size: 0.8rem;
+}
+
+.text__purple {
+  color: #7067ea;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.house__middle > h3 {
+  font-size: 1.35rem;
+  padding-bottom: 0.2rem;
+  color: #0b0720;
+}
+
+.house__middle > p {
+  color: #999999;
+  font-size: 0.88rem;
+}
+
+.middle__bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.rule {
+  width: 100%;
+  height: 0.009rem;
+  background-color: #e2e2e2;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.middle__bottom > p {
+  font-size: 0.7rem;
+  color: #999999;
+}
+
+.bottom__icon {
+  color: #7067ea;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.heart__outline {
+  cursor: pointer;
+  padding: 0.3rem;
+  font-size: 1.9rem;
+  color: #7067ea;
+  font-weight: 900;
+  border: 1.6px solid #e3e3e3;
+  border-radius: 2rem;
+}

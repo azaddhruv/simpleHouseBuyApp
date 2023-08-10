@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+#root,
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Borel', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,13 @@
+.list {
+  padding-top: 5rem;
+  width: 80%;
+  min-height: 100%;
+}
+
+.list__houses {
+  height: 100%;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 27% 27% 27%;
+  grid-column-gap: 10%;
+}
